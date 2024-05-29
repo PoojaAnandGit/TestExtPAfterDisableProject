@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1717003551771</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="lastModifiedDate" type="Long">1717003555573</number>
+        <number name="lastModifiedDate" type="Long">1717003598084</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -37,18 +37,19 @@
         </record>
         <value name="is_public">false</value>
         <value name="field_name">bks:books</value>
-        <value name="field_type">recref</value>
+        <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">false</value>
         <value name="field_xmlns">urn:books</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">fld_2041028534_stage00.projects.flee107fb73bc2e8114c5358.documenttypes:docTypeRef_bks_BooksForm</value>
       </record>
     </array>
-    <value name="modifiable">false</value>
+    <value name="modifiable">true</value>
     <value name="updateRSD">true</value>
   </record>
 </Values>
