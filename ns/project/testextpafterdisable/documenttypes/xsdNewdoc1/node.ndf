@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1717045370307</number>
         <value name="lastModifiedBy">flowadmin</value>
         <value name="lastModifiedByUserId">9fe2810faf9f4e82bb09e5453eeb7afb</value>
-        <number name="lastModifiedDate" type="Long">1717045370318</number>
+        <number name="lastModifiedDate" type="Long">1717045374214</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">39d34aba64134b8fb2de483b30d6e1a1</value>
+    <value name="schemaDomain">e629be1cda334ce9856846b2b4a7818b</value>
     <value name="originURI">customer.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">Root</value>
         <value name="field_type">record</value>
@@ -39,6 +45,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">Customers</value>
             <value name="field_type">record</value>
@@ -50,6 +61,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.flee107fb73bc2e8114c5358.documenttypes:docTypeRef_CustomerType</value>
                 <value name="is_public">false</value>
                 <value name="field_name">Customer</value>
                 <value name="field_type">recref</value>
@@ -61,7 +73,7 @@
                 <value name="is_soap_array_encoding_used">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testextpafterdisable.documenttypes:docTypeRef_CustomerType</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.flee107fb73bc2e8114c5358.documenttypes:docTypeRef_CustomerType</value>
               </record>
             </array>
             <value name="rec_closed">true</value>
@@ -70,6 +82,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">Orders</value>
             <value name="field_type">record</value>
@@ -81,6 +98,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.flee107fb73bc2e8114c5358.documenttypes:docTypeRef_OrderType</value>
                 <value name="is_public">false</value>
                 <value name="field_name">Order</value>
                 <value name="field_type">recref</value>
@@ -92,7 +110,7 @@
                 <value name="is_soap_array_encoding_used">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testextpafterdisable.documenttypes:docTypeRef_OrderType</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.flee107fb73bc2e8114c5358.documenttypes:docTypeRef_OrderType</value>
               </record>
             </array>
             <value name="rec_closed">true</value>
