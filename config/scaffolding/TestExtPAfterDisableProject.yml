@@ -7,3 +7,20 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestExtPAfterDisableProject
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testextpafterdisable.integrations:testEdgeFlowSave
+  packages:
+  - name: TestExtPAfterDisableProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.904
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.904
+- serviceName: project.testextpafterdisable.integrations:edge123
+  packages:
+  - name: TestExtPAfterDisableProject
+    version: "1.0"

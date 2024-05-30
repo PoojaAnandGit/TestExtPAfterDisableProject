@@ -1,0 +1,5 @@
+#readAcl for package: TestExtPAfterDisableProject
+#Thu May 30 05:55:58 GMT 2024
+project.testextpafterdisable.documenttypes\:copyNewXSDDOC=Anonymous
+project.testextpafterdisable.documenttypes\:copyXSDchildDoc=Anonymous
+project.testextpafterdisable.documenttypes\:copyCopyD2=Anonymous
