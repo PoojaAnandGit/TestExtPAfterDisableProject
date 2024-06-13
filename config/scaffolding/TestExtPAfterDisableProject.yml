@@ -15,12 +15,16 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.904
+    version: 11.0.0.0.949
 - serviceName: pub.date:calculateDateDifference
   packages:
   - name: WmPublic
     version: 11.0.0.0.904
 - serviceName: project.testextpafterdisable.integrations:edge123
+  packages:
+  - name: TestExtPAfterDisableProject
+    version: "1.0"
+- serviceName: project.testextpafterdisable.integrations:sss
   packages:
   - name: TestExtPAfterDisableProject
     version: "1.0"
